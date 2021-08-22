@@ -1,0 +1,44 @@
+
+.hamburger{
+    display: none;
+}
+
+@media(max-width:1060px) {
+    .container{
+        max-width: 90%;
+    }
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e9e6e6; 
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(204, 203, 203); 
+  }
+
+  @media screen and (max-width:1060px){
+
+      .nav-ul{
+          display:none;
+      }
+      .hamburger{
+          display: block;
+      }
+  }
+
+  
